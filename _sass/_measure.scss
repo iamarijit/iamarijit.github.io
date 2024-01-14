@@ -1,0 +1,25 @@
+.measure {
+  margin: 0 auto;
+  max-width: $measure-width;
+}
+.share-links{
+  margin-top: 10px;
+  height: 1.8em;
+}
+.share-links a{
+  text-decoration: none;
+  margin: 2px;
+  width: 1.2em;
+  height: 1em;
+  background-color: #1d77b1;
+  color: white;
+  border-radius: 10%;
+  text-align: center;
+  border-width: thick;
+  padding: 0.3em;
+  text-shadow: none;
+}
+.share-links a:hover,.share-links a:focus,.share-links a:active{
+  opacity: 0.8;
+  background-color: black;
+}
